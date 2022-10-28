@@ -13,6 +13,27 @@
   }
 }
 
+.start {
+  opacity: 0;
+}
+.end {
+  opacity: 1;
+  transition: opacity 0.8s;
+}
+
+.main-bg {
+  height: 300px;
+  background-image: url("./img/bg.png");
+  background-size: cover;
+  background-position: center;
+}
+.Navbar {
+  background: #f8efba;
+}
+.link {
+  color: #eab543;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
